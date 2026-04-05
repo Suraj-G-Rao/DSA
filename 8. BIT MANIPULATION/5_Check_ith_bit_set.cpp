@@ -1,0 +1,64 @@
+// CHECK WHETHER THE ith BIT IS SET(1) OR NOT
+
+// SAMPLE INPUT  : n=110110   i=2
+// SAMPLE OUTPUT : YES
+
+// SAMPLE INPUT  : n=110110   i=3
+// SAMPLE OUTPUT : NO
+
+
+#include<iostream>
+#include<cmath>
+using namespace std;
+int bin_2_dec(int n){
+    int i = 0, ans = 0 ;
+
+    while( n != 0) {
+
+        int digit = n % 10;
+
+        if( digit == 1) {
+            ans = ans + pow(2, i);
+        }
+
+        n = n/10;
+        i++;
+
+    }
+
+    return ans;
+}
+int dec_2_bin(int n){
+    int ans  = 0;
+    int i = 0,p=1,bit;
+    while(n != 0 ) {
+
+        bit  = n & 1;
+
+        ans = (bit * p ) + ans;
+
+        n = n >> 1;
+        p=p*10;
+        i++;
+
+    }
+
+    return ans;
+}
+int main(){
+    int n,mask,i;
+    
+    cout<<"Enter the value of number and position(i) : ";
+    cin>>n>>i;
+    n=bin_2_dec(n);
+    
+
+    mask=1<<i;
+
+    if((n & mask)!=0)   cout<<"Yes the ith bit is a set(1) ";
+    else                cout<<"No the ith bit is not a set ";
+     
+
+   
+    return 0;
+}
