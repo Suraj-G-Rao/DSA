@@ -114,5 +114,3 @@ Contributions are welcome!
 If you find this repository helpful, consider giving it a **star ⭐**!
 
 ---
-
-### 💡 "Consistency is the key to mastering DSA"
