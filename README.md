@@ -102,13 +102,6 @@ Contributions are welcome!
 
 ---
 
-## 📬 Connect with Me
-
-* 💼 LinkedIn
-* 🐙 GitHub
-
----
-
 ## ⭐ Support
 
 If you find this repository helpful, consider giving it a **star ⭐**!
