@@ -64,14 +64,6 @@ DSA/
    ```bash
    cd DSA
    ```
-
-3. Compile and run any C++ file:
-
-   ```bash
-   g++ filename.cpp -o output
-   ./output
-   ```
-
 ---
 
 ## 🎯 Purpose
