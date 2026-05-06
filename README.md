@@ -55,7 +55,7 @@ cd "20. TREES"
 cp "1. BINARY TREES/0_template.cpp" my_solution.cpp
 ```
 
-## � Perfect For
+## Perfect For
 
 - 🎓 Students learning DSA
 - 💼 Professionals preparing for interviews
