@@ -1,8 +1,8 @@
-# � Master Data Structures & Algorithms
+#  Master Data Structures & Algorithms
 
 The **ultimate resource** for mastering DSA from fundamentals to advanced topics. This repository provides a complete, structured path to become proficient in data structures and algorithms.
 
-## ✨ Why This Repository?
+## ✨ Why This Repository ?
 
 - **Comprehensive Coverage**: From basics to complex algorithms
 - **Production-Ready Code**: Clean, optimized C++ implementations
